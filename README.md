@@ -18,7 +18,7 @@ Este proyecto permite analizar y traducir scripts escritos en el lenguaje "Clima
 - EjemploInvalido_2.txt ......... Ejemplo de entrada que NO cumple la gramática (para pruebas)
 - EjemploValido_1.txt ........... Ejemplo de entrada que cumple la gramática (para pruebas)
 - EjemploValido_2.txt ........... Ejemplo de entrada que cumple la gramática (para pruebas)
-
+- Gramatica.txt................... Gramática proporcionada para realizar el proyecto
 ------------------------------
  REQUISITOS
 ------------------------------

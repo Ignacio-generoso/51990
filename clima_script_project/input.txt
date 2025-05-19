@@ -1,0 +1,4 @@
+automate clima controlador {
+  monitorear humedad cada quince min;
+  cuando temperatura sobrepasa 30 hacer activar ventilacion;
+}

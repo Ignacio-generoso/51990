@@ -1,0 +1,13 @@
+{
+  "name": "clima_script_project",
+  "version": "1.0.0",
+  "description": "Analizador para el lenguaje ClimaScript usando ANTLR4 con JavaScript",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "antlr4": "^4.13.0"
+  }
+}

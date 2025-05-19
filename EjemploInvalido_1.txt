@@ -1,0 +1,3 @@
+automate clima climaError {
+  cuando humedad 70 activar paraguas;
+}

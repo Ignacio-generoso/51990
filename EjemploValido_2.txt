@@ -1,0 +1,5 @@
+automate clima controladorClima {
+  monitorear temperatura cada 15 min;
+  imprimir "Temperatura alta" cada 10 min;
+  cuando humedad sube de 80 hacer activar riego;
+}

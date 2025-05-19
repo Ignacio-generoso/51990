@@ -1,0 +1,3 @@
+automate clima climaError {
+  cuando humedad sube de 70 hacer activar riego;
+}

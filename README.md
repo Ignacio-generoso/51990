@@ -5,7 +5,7 @@ PROYECTO: Analizador ClimaScript
 Este proyecto permite analizar y traducir scripts escritos en el lenguaje "ClimaScript", diseñado para definir comportamientos automatizados de sistemas climáticos. Utiliza ANTLR4 con JavaScript para analizar sintácticamente textos y generar código JavaScript equivalente si el texto es válido.
 
 ------------------------------
- CONTENIDO DEL PROYECTO
+📦 CONTENIDO DEL PROYECTO
 ------------------------------
 
 - ClimaScript.g4 ................ Gramática del lenguaje ClimaScript (ANTLR4)
@@ -18,9 +18,9 @@ Este proyecto permite analizar y traducir scripts escritos en el lenguaje "Clima
 - EjemploInvalido_2.txt ......... Ejemplo de entrada que NO cumple la gramática (para pruebas)
 - EjemploValido_1.txt ........... Ejemplo de entrada que cumple la gramática (para pruebas)
 - EjemploValido_2.txt ........... Ejemplo de entrada que cumple la gramática (para pruebas)
-- Gramatica.txt................... Gramática proporcionada para realizar el proyecto
+
 ------------------------------
- REQUISITOS
+🧰 REQUISITOS
 ------------------------------
 
 - Node.js v16 o superior
@@ -28,7 +28,7 @@ Este proyecto permite analizar y traducir scripts escritos en el lenguaje "Clima
 - Dependencias instaladas con: `npm install`
 
 ------------------------------
- CÓMO CLONAR EL PROYECTO
+📥 CÓMO CLONAR EL PROYECTO
 ------------------------------
 
 1. Abrí una terminal y ejecutá el siguiente comando para clonar el repositorio:
@@ -50,12 +50,14 @@ Este proyecto permite analizar y traducir scripts escritos en el lenguaje "Clima
     ```
 
 ------------------------------
- CÓMO USAR EL PROYECTO
+🚀 CÓMO USAR EL PROYECTO
 ------------------------------
 
 1. Asegurate de tener los archivos generados por ANTLR en la carpeta `output/`.
 
 2. Colocá el texto a analizar dentro del archivo `input.txt`.
+
+   🔁 Para realizar pruebas, copiá el contenido de cualquiera de los archivos `EjemploValido_*.txt` o `EjemploInvalido_*.txt` y pegalo dentro de `input.txt`.
 
 3. Ejecutá el programa con:
 
@@ -70,4 +72,10 @@ Este proyecto permite analizar y traducir scripts escritos en el lenguaje "Clima
 5. El archivo `output.js` contendrá el código generado.
 
 6. Para ver el árbol sintáctico, abrí el archivo `ClimaScript.g4`, seleccioná la extensión de ANTLR y presioná `F5`.
+
+------------------------------
+ EJEMPLOS
+------------------------------
+
+Para realizar las pruebas debes modificar el contenido de `input.txt` copiando y pegando el contenido de los archivos de ejemplo.
 
